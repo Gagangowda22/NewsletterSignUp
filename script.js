@@ -2,7 +2,7 @@ const form = document.querySelector("form");
 const email = document.querySelector('input[type="email"]');
 const invalid = document.querySelector("span");
 const successPage = document.querySelector(".success");
-const mainPage = document.querySelector("main");
+const mainPage = document.getElementById("main");
 const dismiss = document.getElementById("dismiss");
 
 successPage.style.display = "none";
